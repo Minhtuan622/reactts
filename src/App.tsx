@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import MainGame from "./TicTacToe/MainGame";
+import Quiz from "./QuizGame/Quiz";
 
 function App() {
   return (
-    <div className="bg-slate-800 h-[100vh] flex justify-center items-center">
-      <MainGame/>
+    <div className="flex justify-center items-center">
+      <Quiz/>
     </div>
   );
 }
